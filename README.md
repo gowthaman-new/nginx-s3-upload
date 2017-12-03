@@ -7,10 +7,10 @@ Create a .env file to hold your environment variables for Nginx. You can base on
 
 Using Docker, build the image.
 
-$ docker build -t <<image-name>> .
+$ docker build -t image-nam .
 After the image is built, create a container.
 
-$ docker run -d -p 80:80 --env-file=.env <<image-name>>
+$ docker run -d -p 80:80 --env-file=.env image-name
 Usage
 
 Once the container is running, give it a try!
